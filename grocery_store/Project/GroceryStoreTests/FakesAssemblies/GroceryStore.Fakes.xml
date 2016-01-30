@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GroceryStore.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:GroceryStore.Customers.Fakes.ShimCustomer">
+            <summary>Shim type of GroceryStore.Customers.Customer</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimCustomer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimCustomer.#ctor(GroceryStore.Customers.Customer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimCustomer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimCustomer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimCustomer.Bind(GroceryStore.Customers.ICustomer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.ArrivalTimeGet">
+            <summary>Sets the shim of Customer.get_ArrivalTime()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.ArrivalTimeSetInt32">
+            <summary>Sets the shim of Customer.set_ArrivalTime(Int32 value)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.ChooseRegisterIRegisters">
+            <summary>Sets the shim of Customer.ChooseRegister(IRegisters registers)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.ConstructorInt32Int32IRegisterPicker">
+            <summary>Sets the shim of Customer.Customer(Int32 arrivalTime, Int32 numberOfItems, IRegisterPicker picker)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.NumberOfItemsGet">
+            <summary>Sets the shim of Customer.get_NumberOfItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.NumberOfItemsSetInt32">
+            <summary>Sets the shim of Customer.set_NumberOfItems(Int32 value)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.PickerGet">
+            <summary>Sets the shim of Customer.get_Picker()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.PickerSetIRegisterPicker">
+            <summary>Sets the shim of Customer.set_Picker(IRegisterPicker value)</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.ArrivalTimeGet">
+            <summary>Sets the shim of Customer.get_ArrivalTime()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.ArrivalTimeSetInt32">
+            <summary>Sets the shim of Customer.set_ArrivalTime(Int32 value)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.ChooseRegisterIRegisters">
+            <summary>Sets the shim of Customer.ChooseRegister(IRegisters registers)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.NumberOfItemsGet">
+            <summary>Sets the shim of Customer.get_NumberOfItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.NumberOfItemsSetInt32">
+            <summary>Sets the shim of Customer.set_NumberOfItems(Int32 value)</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.PickerGet">
+            <summary>Sets the shim of Customer.get_Picker()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimCustomer.AllInstances.PickerSetIRegisterPicker">
+            <summary>Sets the shim of Customer.set_Picker(IRegisterPicker value)</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.ShimSteve">
+            <summary>Shim type of GroceryStore.Customers.Steve</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimSteve.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimSteve.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimSteve.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimSteve.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.ShimSteve.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.ShimTypeA">
+            <summary>Shim type of GroceryStore.Customers.TypeA</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimTypeA.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimTypeA.#ctor(GroceryStore.Customers.TypeA)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimTypeA.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimTypeA.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.ShimTypeA.Bind(GroceryStore.Customers.IRegisterPicker)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimTypeA.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimTypeA.Constructor">
+            <summary>Sets the shim of TypeA.TypeA()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimTypeA.PickRegisterIRegisters">
+            <summary>Sets the shim of TypeA.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.ShimTypeA.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.ShimTypeA.AllInstances.PickRegisterIRegisters">
+            <summary>Sets the shim of TypeA.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.StubCustomer">
+            <summary>Stub type of GroceryStore.Customers.Customer</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubCustomer.#ctor(System.Int32,System.Int32,GroceryStore.Customers.IRegisterPicker)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubCustomer.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomer</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubCustomer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubCustomer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubCustomer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.StubICustomer">
+            <summary>Stub type of GroceryStore.Customers.ICustomer</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubICustomer.#ctor">
+            <summary>Initializes a new instance of type StubICustomer</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubICustomer.ArrivalTimeGet">
+            <summary>Sets the stub of ICustomer.get_ArrivalTime()</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubICustomer.AttachBackingFieldToNumberOfItems">
+            <summary>Attaches delegates to emulate StubICustomer.NumberOfItems as a property with a backing field.</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubICustomer.ChooseRegisterIRegisters">
+            <summary>Sets the stub of ICustomer.ChooseRegister(IRegisters registers)</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubICustomer.gs::GroceryStore#Customers#ICustomer#ChooseRegister(GroceryStore.Registers.IRegisters)">
+            <summary>Sets the stub of ICustomer.ChooseRegister(IRegisters registers)</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubICustomer.NumberOfItemsGet">
+            <summary>Sets the stub of ICustomer.get_NumberOfItems()</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubICustomer.NumberOfItemsSetInt32">
+            <summary>Sets the stub of ICustomer.set_NumberOfItems(Int32 value)</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubICustomer.PickerGet">
+            <summary>Sets the stub of ICustomer.get_Picker()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubICustomer.gs::GroceryStore#Customers#ICustomer#ArrivalTime">
+            <summary>Sets the stub of ICustomer.get_ArrivalTime()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubICustomer.gs::GroceryStore#Customers#ICustomer#NumberOfItems">
+            <summary>Sets the stub of ICustomer.get_NumberOfItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubICustomer.gs::GroceryStore#Customers#ICustomer#Picker">
+            <summary>Sets the stub of ICustomer.get_Picker()</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.StubIRegisterPicker">
+            <summary>Stub type of GroceryStore.Customers.IRegisterPicker</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubIRegisterPicker.#ctor">
+            <summary>Initializes a new instance of type StubIRegisterPicker</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubIRegisterPicker.gs::GroceryStore#Customers#IRegisterPicker#PickRegister(GroceryStore.Registers.IRegisters)">
+            <summary>Sets the stub of IRegisterPicker.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="F:GroceryStore.Customers.Fakes.StubIRegisterPicker.PickRegisterIRegisters">
+            <summary>Sets the stub of IRegisterPicker.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="T:GroceryStore.Customers.Fakes.StubTypeA">
+            <summary>Stub type of GroceryStore.Customers.TypeA</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubTypeA.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Customers.Fakes.StubTypeA.InitializeStub">
+            <summary>Initializes a new instance of type StubTypeA</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubTypeA.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubTypeA.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Customers.Fakes.StubTypeA.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Fakes.ShimGroceryStore">
+            <summary>Shim type of GroceryStore.GroceryStore</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.ShimGroceryStore.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.ShimGroceryStore.#ctor(GroceryStore.GroceryStore)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.ShimGroceryStore.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.ShimGroceryStore.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.ShimGroceryStore.Bind(GroceryStore.IGroceryStore)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore.ConstructorIDataMapperIClock">
+            <summary>Sets the shim of GroceryStore.GroceryStore(IDataMapper dataMapper, IClock clock)</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore.Start">
+            <summary>Sets the shim of GroceryStore.Start()</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore._Startb__0ICustomer">
+            <summary>Sets the shim of GroceryStore.&lt;Start&gt;b__0(ICustomer c)</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore._Startb__1ICustomer">
+            <summary>Sets the shim of GroceryStore.&lt;Start&gt;b__1(ICustomer c)</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore._Startb__2ICustomer">
+            <summary>Sets the shim of GroceryStore.&lt;Start&gt;b__2(ICustomer c)</summary>
+        </member>
+        <member name="T:GroceryStore.Fakes.ShimGroceryStore.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore.AllInstances.Start">
+            <summary>Sets the shim of GroceryStore.Start()</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.ShimGroceryStore.AllInstances._Startb__0ICustomer">
+            <summary>Sets the shim of GroceryStore.&lt;Start&gt;b__0(ICustomer c)</summary>
+        </member>
+        <member name="T:GroceryStore.Fakes.StubGroceryStore">
+            <summary>Stub type of GroceryStore.GroceryStore</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.StubGroceryStore.#ctor(GroceryStore.Utility.IDataMapper,GroceryStore.Time.IClock)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.StubGroceryStore.InitializeStub">
+            <summary>Initializes a new instance of type StubGroceryStore</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.StubGroceryStore.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.StubGroceryStore.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Fakes.StubGroceryStore.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Fakes.StubIGroceryStore">
+            <summary>Stub type of GroceryStore.IGroceryStore</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.StubIGroceryStore.#ctor">
+            <summary>Initializes a new instance of type StubIGroceryStore</summary>
+        </member>
+        <member name="M:GroceryStore.Fakes.StubIGroceryStore.gs::GroceryStore#IGroceryStore#Start">
+            <summary>Sets the stub of IGroceryStore.Start()</summary>
+        </member>
+        <member name="F:GroceryStore.Fakes.StubIGroceryStore.Start">
+            <summary>Sets the stub of IGroceryStore.Start()</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimGroupOfRegisters">
+            <summary>Shim type of GroceryStore.Registers.GroupOfRegisters</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.#ctor(GroceryStore.Registers.GroupOfRegisters)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.Bind(GroceryStore.Registers.IRegisters)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AddCustomersIListOfICustomer">
+            <summary>Sets the shim of GroupOfRegisters.AddCustomers(IList`1&lt;ICustomer&gt; customers)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.ConstructorIListOfIRegister">
+            <summary>Sets the shim of GroupOfRegisters.GroupOfRegisters(IList`1&lt;IRegister&gt; registers)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.GetRegisterByLastCustomerWithFewestItemsLeft">
+            <summary>Sets the shim of GroupOfRegisters.GetRegisterByLastCustomerWithFewestItemsLeft()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.GetRegisterWithShortestLine">
+            <summary>Sets the shim of GroupOfRegisters.GetRegisterWithShortestLine()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.ProcessCurrentCustomersItems">
+            <summary>Sets the shim of GroupOfRegisters.ProcessCurrentCustomersItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.TryGetEmptyRegisterInt32Out">
+            <summary>Sets the shim of GroupOfRegisters.TryGetEmptyRegister(Int32&amp; emptyRegister)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._GetRegisterByLastCustomerWithFewestItemsLeftb__aIRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;GetRegisterByLastCustomerWithFewestItemsLeft&gt;b__a(IRegister r)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._GetRegisterWithShortestLineb__2IRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;GetRegisterWithShortestLine&gt;b__2(IRegister r)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._GetRegisterWithShortestLineb__3IRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;GetRegisterWithShortestLine&gt;b__3(IRegister r)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._ProcessCurrentCustomersItemsb__0IRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;ProcessCurrentCustomersItems&gt;b__0(IRegister register)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._TryGetEmptyRegisterb__6IRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;TryGetEmptyRegister&gt;b__6(IRegister r)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters._TryGetEmptyRegisterb__7IRegister">
+            <summary>Sets the shim of GroupOfRegisters.&lt;TryGetEmptyRegister&gt;b__7(IRegister r)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances.AddCustomersIListOfICustomer">
+            <summary>Sets the shim of GroupOfRegisters.AddCustomers(IList`1&lt;ICustomer&gt; customers)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances.GetRegisterByLastCustomerWithFewestItemsLeft">
+            <summary>Sets the shim of GroupOfRegisters.GetRegisterByLastCustomerWithFewestItemsLeft()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances.GetRegisterWithShortestLine">
+            <summary>Sets the shim of GroupOfRegisters.GetRegisterWithShortestLine()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances.ProcessCurrentCustomersItems">
+            <summary>Sets the shim of GroupOfRegisters.ProcessCurrentCustomersItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimGroupOfRegisters.AllInstances.TryGetEmptyRegisterInt32Out">
+            <summary>Sets the shim of GroupOfRegisters.TryGetEmptyRegister(Int32&amp; emptyRegister)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimRegister">
+            <summary>Shim type of GroceryStore.Registers.Register</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimRegister.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimRegister.#ctor(GroceryStore.Registers.Register)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimRegister.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimRegister.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimRegister.Bind(GroceryStore.Registers.IRegister)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AddICustomer">
+            <summary>Sets the shim of Register.Add(ICustomer newCustomer)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.ConstructorInt32Int32">
+            <summary>Sets the shim of Register.Register(Int32 registerId, Int32 itemMultiplier)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.GetCustomersInLine">
+            <summary>Sets the shim of Register.GetCustomersInLine()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.GetLastCustomerItemsRemaining">
+            <summary>Sets the shim of Register.GetLastCustomerItemsRemaining()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.ProcessItems">
+            <summary>Sets the shim of Register.ProcessItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.RegisterIdGet">
+            <summary>Sets the shim of Register.get_RegisterId()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.RegisterIdSetInt32">
+            <summary>Sets the shim of Register.set_RegisterId(Int32 value)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimRegister.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.AddICustomer">
+            <summary>Sets the shim of Register.Add(ICustomer newCustomer)</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.GetCustomersInLine">
+            <summary>Sets the shim of Register.GetCustomersInLine()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.GetLastCustomerItemsRemaining">
+            <summary>Sets the shim of Register.GetLastCustomerItemsRemaining()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.ProcessItems">
+            <summary>Sets the shim of Register.ProcessItems()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.RegisterIdGet">
+            <summary>Sets the shim of Register.get_RegisterId()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimRegister.AllInstances.RegisterIdSetInt32">
+            <summary>Sets the shim of Register.set_RegisterId(Int32 value)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimTypeB">
+            <summary>Shim type of GroceryStore.Registers.TypeB</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimTypeB.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimTypeB.#ctor(GroceryStore.Registers.TypeB)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimTypeB.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimTypeB.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.ShimTypeB.Bind(GroceryStore.Customers.IRegisterPicker)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimTypeB.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimTypeB.Constructor">
+            <summary>Sets the shim of TypeB.TypeB()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimTypeB.PickRegisterIRegisters">
+            <summary>Sets the shim of TypeB.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.ShimTypeB.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.ShimTypeB.AllInstances.PickRegisterIRegisters">
+            <summary>Sets the shim of TypeB.PickRegister(IRegisters registers)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.StubGroupOfRegisters">
+            <summary>Stub type of GroceryStore.Registers.GroupOfRegisters</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubGroupOfRegisters.#ctor(System.Collections.Generic.IList{GroceryStore.Registers.IRegister})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubGroupOfRegisters.InitializeStub">
+            <summary>Initializes a new instance of type StubGroupOfRegisters</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubGroupOfRegisters.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubGroupOfRegisters.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubGroupOfRegisters.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.StubIRegister">
+            <summary>Stub type of GroceryStore.Registers.IRegister</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegister.#ctor">
+            <summary>Initializes a new instance of type StubIRegister</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegister.AddICustomer">
+            <summary>Sets the stub of IRegister.Add(ICustomer newCustomer)</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegister.GetCustomersInLine">
+            <summary>Sets the stub of IRegister.GetCustomersInLine()</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegister.GetLastCustomerItemsRemaining">
+            <summary>Sets the stub of IRegister.GetLastCustomerItemsRemaining()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegister.gs::GroceryStore#Registers#IRegister#Add(GroceryStore.Customers.ICustomer)">
+            <summary>Sets the stub of IRegister.Add(ICustomer newCustomer)</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegister.gs::GroceryStore#Registers#IRegister#GetCustomersInLine">
+            <summary>Sets the stub of IRegister.GetCustomersInLine()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegister.gs::GroceryStore#Registers#IRegister#GetLastCustomerItemsRemaining">
+            <summary>Sets the stub of IRegister.GetLastCustomerItemsRemaining()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegister.gs::GroceryStore#Registers#IRegister#ProcessItems">
+            <summary>Sets the stub of IRegister.ProcessItems()</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegister.ProcessItems">
+            <summary>Sets the stub of IRegister.ProcessItems()</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegister.RegisterIdGet">
+            <summary>Sets the stub of IRegister.get_RegisterId()</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubIRegister.gs::GroceryStore#Registers#IRegister#RegisterId">
+            <summary>Sets the stub of IRegister.get_RegisterId()</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.StubIRegisters">
+            <summary>Stub type of GroceryStore.Registers.IRegisters</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.#ctor">
+            <summary>Initializes a new instance of type StubIRegisters</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegisters.AddCustomersIListOfICustomer">
+            <summary>Sets the stub of IRegisters.AddCustomers(IList`1&lt;ICustomer&gt; customers)</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegisters.GetRegisterByLastCustomerWithFewestItemsLeft">
+            <summary>Sets the stub of IRegisters.GetRegisterByLastCustomerWithFewestItemsLeft()</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegisters.GetRegisterWithShortestLine">
+            <summary>Sets the stub of IRegisters.GetRegisterWithShortestLine()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.gs::GroceryStore#Registers#IRegisters#AddCustomers(System.Collections.Generic.IList{GroceryStore.Customers.ICustomer})">
+            <summary>Sets the stub of IRegisters.AddCustomers(IList`1&lt;ICustomer&gt; customers)</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.gs::GroceryStore#Registers#IRegisters#GetRegisterByLastCustomerWithFewestItemsLeft">
+            <summary>Sets the stub of IRegisters.GetRegisterByLastCustomerWithFewestItemsLeft()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.gs::GroceryStore#Registers#IRegisters#GetRegisterWithShortestLine">
+            <summary>Sets the stub of IRegisters.GetRegisterWithShortestLine()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.gs::GroceryStore#Registers#IRegisters#ProcessCurrentCustomersItems">
+            <summary>Sets the stub of IRegisters.ProcessCurrentCustomersItems()</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubIRegisters.gs::GroceryStore#Registers#IRegisters#TryGetEmptyRegister(System.Int32@)">
+            <summary>Sets the stub of IRegisters.TryGetEmptyRegister(Int32&amp; emptyRegister)</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegisters.ProcessCurrentCustomersItems">
+            <summary>Sets the stub of IRegisters.ProcessCurrentCustomersItems()</summary>
+        </member>
+        <member name="F:GroceryStore.Registers.Fakes.StubIRegisters.TryGetEmptyRegisterInt32Out">
+            <summary>Sets the stub of IRegisters.TryGetEmptyRegister(Int32&amp; emptyRegister)</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.StubRegister">
+            <summary>Stub type of GroceryStore.Registers.Register</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubRegister.#ctor(System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubRegister.InitializeStub">
+            <summary>Initializes a new instance of type StubRegister</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubRegister.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubRegister.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubRegister.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Registers.Fakes.StubTypeB">
+            <summary>Stub type of GroceryStore.Registers.TypeB</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubTypeB.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Registers.Fakes.StubTypeB.InitializeStub">
+            <summary>Initializes a new instance of type StubTypeB</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubTypeB.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubTypeB.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Registers.Fakes.StubTypeB.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Time.Fakes.ShimClock">
+            <summary>Shim type of GroceryStore.Time.Clock</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.ShimClock.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.ShimClock.#ctor(GroceryStore.Time.Clock)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.ShimClock.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.ShimClock.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.ShimClock.Bind(GroceryStore.Time.IClock)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.Constructor">
+            <summary>Sets the shim of Clock.Clock()</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.GetCurrentMinute">
+            <summary>Sets the shim of Clock.GetCurrentMinute()</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.Tick">
+            <summary>Sets the shim of Clock.Tick()</summary>
+        </member>
+        <member name="T:GroceryStore.Time.Fakes.ShimClock.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.AllInstances.GetCurrentMinute">
+            <summary>Sets the shim of Clock.GetCurrentMinute()</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.ShimClock.AllInstances.Tick">
+            <summary>Sets the shim of Clock.Tick()</summary>
+        </member>
+        <member name="T:GroceryStore.Time.Fakes.StubClock">
+            <summary>Stub type of GroceryStore.Time.Clock</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.StubClock.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.StubClock.InitializeStub">
+            <summary>Initializes a new instance of type StubClock</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.StubClock.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.StubClock.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Time.Fakes.StubClock.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Time.Fakes.StubIClock">
+            <summary>Stub type of GroceryStore.Time.IClock</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.StubIClock.#ctor">
+            <summary>Initializes a new instance of type StubIClock</summary>
+        </member>
+        <member name="F:GroceryStore.Time.Fakes.StubIClock.GetCurrentMinute">
+            <summary>Sets the stub of IClock.GetCurrentMinute()</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.StubIClock.gs::GroceryStore#Time#IClock#GetCurrentMinute">
+            <summary>Sets the stub of IClock.GetCurrentMinute()</summary>
+        </member>
+        <member name="M:GroceryStore.Time.Fakes.StubIClock.gs::GroceryStore#Time#IClock#Tick">
+            <summary>Sets the stub of IClock.Tick()</summary>
+        </member>
+        <member name="F:GroceryStore.Time.Fakes.StubIClock.Tick">
+            <summary>Sets the stub of IClock.Tick()</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.ShimDataMapper">
+            <summary>Shim type of GroceryStore.Utility.DataMapper</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimDataMapper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimDataMapper.#ctor(GroceryStore.Utility.DataMapper)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimDataMapper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimDataMapper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimDataMapper.Bind(GroceryStore.Utility.IDataMapper)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.ConstructorStringArray">
+            <summary>Sets the shim of DataMapper.DataMapper(String[] inputData)</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.CreateCustomerString">
+            <summary>Sets the shim of DataMapper.CreateCustomer(String input)</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.GetCustomers">
+            <summary>Sets the shim of DataMapper.GetCustomers()</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.GetRegisters">
+            <summary>Sets the shim of DataMapper.GetRegisters()</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.ShimDataMapper.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.AllInstances.CreateCustomerString">
+            <summary>Sets the shim of DataMapper.CreateCustomer(String input)</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.AllInstances.GetCustomers">
+            <summary>Sets the shim of DataMapper.GetCustomers()</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimDataMapper.AllInstances.GetRegisters">
+            <summary>Sets the shim of DataMapper.GetRegisters()</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.ShimLastQ`1">
+            <summary>Shim type of GroceryStore.Utility.LastQ`1</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.#ctor(GroceryStore.Utility.LastQ{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.ShimLastQ`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.Constructor">
+            <summary>Sets the shim of LastQ`1.LastQ`1()</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.EnqueueT0">
+            <summary>Sets the shim of LastQ`1.Enqueue(!0 item)</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.LastGet">
+            <summary>Sets the shim of LastQ`1.get_Last()</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.LastSetT0">
+            <summary>Sets the shim of LastQ`1.set_Last(!0 value)</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.ShimLastQ`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.AllInstances.EnqueueT0">
+            <summary>Sets the shim of LastQ`1.Enqueue(!0 item)</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.AllInstances.LastGet">
+            <summary>Sets the shim of LastQ`1.get_Last()</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.ShimLastQ`1.AllInstances.LastSetT0">
+            <summary>Sets the shim of LastQ`1.set_Last(!0 value)</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.StubDataMapper">
+            <summary>Stub type of GroceryStore.Utility.DataMapper</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubDataMapper.#ctor(System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubDataMapper.InitializeStub">
+            <summary>Initializes a new instance of type StubDataMapper</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubDataMapper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubDataMapper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubDataMapper.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.StubIDataMapper">
+            <summary>Stub type of GroceryStore.Utility.IDataMapper</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubIDataMapper.#ctor">
+            <summary>Initializes a new instance of type StubIDataMapper</summary>
+        </member>
+        <member name="F:GroceryStore.Utility.Fakes.StubIDataMapper.GetCustomers">
+            <summary>Sets the stub of IDataMapper.GetCustomers()</summary>
+        </member>
+        <member name="F:GroceryStore.Utility.Fakes.StubIDataMapper.GetRegisters">
+            <summary>Sets the stub of IDataMapper.GetRegisters()</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubIDataMapper.gs::GroceryStore#Utility#IDataMapper#GetCustomers">
+            <summary>Sets the stub of IDataMapper.GetCustomers()</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubIDataMapper.gs::GroceryStore#Utility#IDataMapper#GetRegisters">
+            <summary>Sets the stub of IDataMapper.GetRegisters()</summary>
+        </member>
+        <member name="T:GroceryStore.Utility.Fakes.StubLastQ`1">
+            <summary>Stub type of GroceryStore.Utility.LastQ`1</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubLastQ`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GroceryStore.Utility.Fakes.StubLastQ`1.InitializeStub">
+            <summary>Initializes a new instance of type StubLastQ</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubLastQ`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubLastQ`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GroceryStore.Utility.Fakes.StubLastQ`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
